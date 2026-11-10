@@ -1,0 +1,168 @@
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F0FA;
+    color: #393047;
+    line height: 1.8;
+    padding: 20px;
+}
+
+/* Main Heading */
+h1 {
+    background-color: #49345F;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+/* Navigation Links */
+nav {
+    background-color: #DCCBEA;
+    padding: 18px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #49345F;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 12px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #A15C91;
+    text-decoration: underline;
+}
+
+/* Portfolio Image */
+img {
+    display: block;
+    width: 450px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 18px;
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(50, 30, 70, 0.15);
+}
+
+/* Section Headings */
+h2 {
+    color: #694C83;
+    font-size: 27px;
+    border-left: 5px solid #B58BCB;
+    padding-left: 12px;
+    margin: 30px 0 15px;
+}
+
+h3 {
+    color: #895D91;
+    margin: 15px 0;
+}
+
+/* Paragraphs */
+p {
+    color: #51485A;
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+/* Lists */
+ul, ol {
+    background-color: white;
+    padding: 20px 45px;
+    border-radius: 12px;
+    margin: 15px 0 25px;
+    box-shadow: 0 3px 12px rgba(50, 30, 70, 0.08);
+}
+
+li {
+    padding: 5px;
+    color: #55445F;
+}
+
+/* All Sections */
+section {
+    background-color: white;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(50, 30, 70, 0.08);
+    border: 1px solid #E8DDF0;
+}
+
+/* Links */
+a {
+    transition: 0.3s;
+}
+
+/* Footer */
+footer {
+    background-color: #49345F;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+/* Contact Me Heading */
+footer h2{
+    color: #F5F0FA;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: white;
+}
+
+/* Hover Effect */
+section:hover {
+    border-color: #B58BCB;
+    transition: 0.3s;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
+CSS
+nav{
+    display: flex
+    justify-Content:center;
+    gap: 30px;
+    padding: 20px;
+}
